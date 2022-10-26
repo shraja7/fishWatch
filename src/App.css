@@ -1,14 +1,31 @@
 .MuiCardMedia-img{
-background-color: rgb(177, 177, 177);
 
+  /* height: auto;
+  max-height: 250px;
+  width: auto;
+  max-width: 250px; */
 
 }
 
-/* .MuiCardMedia-root{
-width: 300;
-margin: auto;
-} */
+.MuiCardMedia-root{
+  /* width: 350px;
+  height: 450px; */
+  
+}
 
 .MuiCardMedia-media{
+  background-color: rgb(177, 177, 177);
+ 
+}
 
+.profilePage {
+ 
+ width: 100%;
+ display: flex;
+ text-align: center;
+  justify-content: center;
+} 
+
+.allProfileGrid {
+  margin-top: 20vh;
 }

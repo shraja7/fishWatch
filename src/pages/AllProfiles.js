@@ -20,12 +20,16 @@ console.log('Species Names: ',speciesName)
 
 
   return (
-    <div className="App">
-        <h1>All Profiles</h1>
+    <div >
+       
+       <h1 style={{
+              textAlign: 'center',
+       }}>All Profiles</h1>
 
-     
+       
+   
 
-<Grid2 container spacing ={3}  >
+<Grid2 container spacing ={3} className="profilePage" >
       
         {
             data && data.map((fish) =>
