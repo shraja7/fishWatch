@@ -1,7 +1,14 @@
-.center {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-  min-height: 100vh;
+.MuiCardMedia-img{
+background-color: rgb(177, 177, 177);
+
+
+}
+
+/* .MuiCardMedia-root{
+width: 300;
+margin: auto;
+} */
+
+.MuiCardMedia-media{
+
 }

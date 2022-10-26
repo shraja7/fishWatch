@@ -1,7 +1,7 @@
 import {useState, useEffect } from "react"
 import axios from 'axios'
 import FishCard from "../components/FishCard";
-
+import Grid2 from '@mui/material/Unstable_Grid2';
 
 const AllProfiles = () => {
     const [data, setData] = useState([]);
@@ -20,32 +20,30 @@ console.log('Species Names: ',speciesName)
 
 
   return (
-    <div>
+    <div className="App">
         <h1>All Profiles</h1>
+
+     
+
+<Grid2 container spacing ={3}  >
+      
         {
             data && data.map((fish) =>
             
-            
-            <FishCard speciesName={fish['Species Name']} />
-            
+            <Grid2 justifyContent="center" alignItems="center" item>
+
+           
+            <FishCard 
+            speciesName={fish['Species Name']}
+            speciesPhoto ={fish['Species Illustration Photo'].src}
+            scientificName={fish['Scientific Name']}
+            />
+             </Grid2>
             )
         }
-      
+      </Grid2>
        
-        {/* <p>{
-        data[0]['Species Name']
         
-        }</p> 
-         <p>{
-        data[1]['Species Name']
-        
-        }</p> 
-         <p>{
-        data[2]['Species Name']
-        
-        }</p>  */}
-      
-        {/* <FishCard /> */}
     </div>
   )
 }
