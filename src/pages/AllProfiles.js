@@ -2,6 +2,8 @@ import {useState, useEffect } from "react"
 import axios from 'axios'
 import FishCard from "../components/FishCard";
 import Grid2 from '@mui/material/Unstable_Grid2';
+import * as Mui from '@mui/material/';
+import {Link} from 'react-router-dom'
 
 const AllProfiles = () => {
     const [data, setData] = useState([]);
@@ -21,11 +23,16 @@ console.log('Species Names: ',speciesName)
 
   return (
     <div >
-       
-       <h1 style={{
-              textAlign: 'center',
-       }}>All Profiles</h1>
 
+       
+
+<div className="profilesTop">
+<Link to='/'  style={{textDecoration: 'none'}}>
+    
+<Mui.Button variant="contained">Home</Mui.Button>
+</Link>
+    <h1>All Profiles</h1>
+</div>
        
    
 
