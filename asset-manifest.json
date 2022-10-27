@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/fishwatch/static/css/main.0b69fa7d.css",
+    "main.js": "/fishwatch/static/js/main.1efda776.js",
+    "index.html": "/fishwatch/index.html",
+    "main.0b69fa7d.css.map": "/fishwatch/static/css/main.0b69fa7d.css.map",
+    "main.1efda776.js.map": "/fishwatch/static/js/main.1efda776.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.0b69fa7d.css",
+    "static/js/main.1efda776.js"
+  ]
+}
