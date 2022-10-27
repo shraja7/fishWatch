@@ -35,3 +35,16 @@
   margin-top: 5vh;
   text-align: center;
 }
+
+/* start css for home page */
+.center-screen {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  min-height: 100vh;
+}
+
+
+
+/* end css for home page */

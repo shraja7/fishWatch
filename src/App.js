@@ -6,6 +6,7 @@ import './App.css';
 import {Route, Routes} from 'react-router-dom';
 import Home from './pages/Home';
 import AllProfiles from './pages/AllProfiles';
+import FishDetails from './pages/FishDetails';
 function App() {
   
 
@@ -26,6 +27,10 @@ function App() {
 </Route>
 
 <Route path='/allprofiles' element={<AllProfiles/>}>
+
+</Route>
+
+<Route path='/profiles/:fishSpecies' element={<FishDetails/>}>
 
 </Route>
 
